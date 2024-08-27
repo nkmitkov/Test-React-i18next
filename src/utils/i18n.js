@@ -8,15 +8,21 @@ const resources = {
   en: {
     translation: {
       welcomeMsg: "Welcome to Vite + React and react-i18next",
+      addNotificationBtnText: "Add notification",
       notificationMsg_one: "You have {{count}} notification",
       notificationMsg_other: "You have {{count}} notifications",
+      editMsg: "Edit <1>src/App.jsx</1> and save to test HMR",
+      detailsMsg: "Click on the <1>Vite</1> and <3>React</3> logos to <5>learn more</5>",
     }
   },
   fr: {
     translation: {
       welcomeMsg: "Bienvenue à Vite + React et react-i18next",
+      addNotificationBtnText: "Ajouter notification",
       notificationMsg_one: "Vous avez {{count}} notification",
       notificationMsg_other: "Vous avez {{count}} notifications",
+      editMsg: "Modifiez <1>src/App.jsx</1> et enregistrez-le pour tester HMR",
+      detailsMsg: "Cliquez sur les logos <1>Vite</1> et <3>React</3> pour en <5>savoir plus</5>",
     }
   }
 };
@@ -26,7 +32,7 @@ i18n
   .init({
     resources,
     fallbackLng: "en",
-    lng: "en", // language to use, more information here: https://www.i18next.com/overview/configuration-options#languages-namespaces-resources
+    lng: "fr", // language to use, more information here: https://www.i18next.com/overview/configuration-options#languages-namespaces-resources
     // you can use the i18n.changeLanguage function to change the language manually: https://www.i18next.com/overview/api#changelanguage
     // if you're using a language detector, do not define the lng option
 

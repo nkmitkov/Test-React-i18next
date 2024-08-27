@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import { Trans } from 'react-i18next'
 
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -22,17 +23,21 @@ function App() {
       <h1>{t("welcomeMsg")}</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          Add notification
+          {t("addNotificationBtnText")}
         </button>
         <h3>
           {t("notificationMsg", { count })}
         </h3>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          <Trans i18nKey="editMsg">
+            Edit <code>src/App.jsx</code> and save to test HMR
+          </Trans>
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        <Trans i18nKey="detailsMsg">
+          Click on the <b>Vite</b> and <b>React</b> logos to <i>learn more</i>
+        </Trans>
       </p>
     </>
   )
