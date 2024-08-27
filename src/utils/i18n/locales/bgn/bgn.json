@@ -1,0 +1,8 @@
+{
+    "welcomeMsg": "Добре дошли във Vite + React и react-i18next",
+    "addNotificationBtnText": "Добавете известие",
+    "notificationMsg_one": "Имате {{count}} известие",
+    "notificationMsg_other": "Имате {{count}} известия",
+    "editMsg": "Редактирайте <1>src/App.jsx</1> и запазете, за да тествате HMR",
+    "detailsMsg": "Кликнете върху логата <1>Vite</1> и <3>React</3>, за да <5>научите повече</5>"
+  }

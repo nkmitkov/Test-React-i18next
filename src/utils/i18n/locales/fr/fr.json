@@ -1,0 +1,8 @@
+{
+    "welcomeMsg": "Bienvenue à Vite + React et react-i18next",
+    "addNotificationBtnText": "Ajouter notification",
+    "notificationMsg_one": "Vous avez {{count}} notification",
+    "notificationMsg_other": "Vous avez {{count}} notifications",
+    "editMsg": "Modifiez <1>src/App.jsx</1> et enregistrez-le pour tester HMR",
+    "detailsMsg": "Cliquez sur les logos <1>Vite</1> et <3>React</3> pour en <5>savoir plus</5>"
+  }
